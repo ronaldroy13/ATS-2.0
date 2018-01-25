@@ -1,0 +1,36 @@
+html {
+	font-family: "arial";
+}
+
+body {
+	background: #FFFFFF;
+	background-repeat: no-repeat;
+	margin: 0;
+	max-width: 100em;
+}
+
+.navbar {
+	display: grid;
+	grid-template-columns: repeat(5 , 1fr);
+	grid-template-rows: 1fr;
+	text-align: center;
+
+	top: 0;
+	width: 100%;
+	height: 5vw;
+
+	background-color: #4F5D75;
+	border-bottom: 5px solid #2D3142;
+}
+
+.navbar div {
+	padding-top: 2vw;
+	border-right: 5px solid #2D3142;
+	color: white;
+	vertical-align: text-top;
+}
+
+.navbar div:hover {
+	filter: brightness(70%);
+	transition: ease 0.3s;
+}
