@@ -8,9 +8,7 @@
 .grid > * {
 	padding: 20px;
 	text-align: center;
-	border-style: solid;
-	border-width: 3px;
-	background-color: #Ef8354;
+
 }
 
 .grid a {

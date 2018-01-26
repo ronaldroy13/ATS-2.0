@@ -1,23 +1,18 @@
+{% extends "base.html" %}
+{% block page_content %}
 <!DOCTYPE html>
 <html>
 	<head>
 		<title>ATS Site</title>
-		<link rel="stylesheet" href="../static/style.css"/>
-		<link rel="stylesheet" href="../static/grid.css"/>
+		<link rel="stylesheet" href = "{{url_for('static', filename='style.css')}}"/>
+		<link rel="stylesheet" href = "{{url_for('static', filename='grid.css')}}"/>
+		<link rel="stylesheet" href = "{{url_for('static', filename='fonts/FontSheet.css')}}"/>
 	</head>
 
 	<body>
-		<div class = navbar>
-			<div>
-				Home
-			</div>
-			<div> 
-				Calculator
-			</div>
-			<div>
-				Data
-			</div>
-		</div>
+		<!-- NAVIGATION BAR -->
+		<nav id="navMenu"></nav>
+		<script src="{{url_for('static', filename='navbar.js')}}"></script>
 		<div class = grid>
 			<div>
 				Cell 1
@@ -34,3 +29,4 @@
 		</div>
 	</body>
 </html>
+{% endblock %}
