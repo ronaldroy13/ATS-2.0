@@ -42,3 +42,8 @@ a:link {
 a:active {
 	text-decoration: none;
 }
+
+/*Make navbar take up whole screen and be left aligned
+make the dividing bars go all the way down and not darken on hover
+make whole button either darken or lighten on hover
+make button be different for active page*/
