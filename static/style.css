@@ -1,4 +1,7 @@
 html {
+	margin: 0;
+	padding: 0;
+
 	font-family: "open_sansregular";
 }
 
@@ -6,7 +9,14 @@ body {
 	background-image: url("images/pattern.svg");
 	background-repeat: no-repeat;
 	margin: 0;
+	padding: 0;
 	max-width: 100%;
+}
+
+.container {
+	width: 100%;
+	padding: 0;
+	margin: 0;
 }
 
 .navbar {
@@ -16,6 +26,7 @@ body {
 	text-align: center;
 
 	top: 0;
+
 	width: 100%;
 	height: 3vw;
 
@@ -23,15 +34,17 @@ body {
 }
 
 .navbar div {
-	padding-top: 1vw;
+	height: 100%;
 	border-right: 2px solid rgba(255,255,255,.2);
+	padding-top: 1vw;
 	color: white;
-	vertical-align: text-top;
+	vertical-align: middle;
 
 }
 
 .navbar div:hover {
-	filter: brightness(10%);
+	color: black;
+	background-color: rgba(255,255,255,.1);
 	transition: ease 0.3s;
 }
 
@@ -43,7 +56,7 @@ a:active {
 	text-decoration: none;
 }
 
-/*Make navbar take up whole screen and be left aligned
-make the dividing bars go all the way down and not darken on hover
+/*Make navbar be left aligned
+make the dividing bars go all the way down
 make whole button either darken or lighten on hover
 make button be different for active page*/
