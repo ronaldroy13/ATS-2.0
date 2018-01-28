@@ -34,6 +34,7 @@ body {
 }
 
 .navbar div {
+	grid-column-start: 1;
 	height: 100%;
 	border-right: 2px solid rgba(255,255,255,.2);
 	padding-top: 1vw;
@@ -48,6 +49,11 @@ body {
 	transition: ease 0.3s;
 }
 
+.navbar div:active {
+	background-color: rgba(255,255,255,.1);
+	transition: ease 0.3s;
+}
+
 a:link {
 	text-decoration: none;
 }
@@ -57,6 +63,10 @@ a:active {
 }
 
 /*Make navbar be left aligned
-make the dividing bars go all the way down
-make whole button either darken or lighten on hover
-make button be different for active page*/
+make button be lighter color for active page*/
+
+.ATS {
+	color: white;
+	/*font-size: 10em;*/
+
+}
