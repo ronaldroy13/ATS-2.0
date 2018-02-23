@@ -1,8 +1,6 @@
 html {
 	margin: 0;
 	padding: 0;
-
-	font-family: "open_sansregular";
 }
 
 body {
@@ -11,6 +9,8 @@ body {
 	margin: 0;
 	padding: 0;
 	max-width: 100%;
+
+	font-family: "open_sansregular";
 }
 
 .container {
@@ -32,14 +32,28 @@ body {
 	height: 3vw;
 
 	background-color: rgba(255,255,255,.2);
+
 }
 
 .navbar div {
 	height: 100%;
-	border-right: 2px solid rgba(255,255,255,.2);
+	border-right: 3px solid rgba(255,255,255,.4);
 	padding-top: 1vw;
 	color: white;
 	vertical-align: middle;
+<<<<<<< HEAD
+=======
+	border-right: 3px solid rgba(255,255,255,.4);
+}
+
+.navbar a {
+	font-family: 'open_sansbold';
+	height: 100%;
+	padding-top: 1vw;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: .06em;
+>>>>>>> a5f0bd9f7299bfac5f221929f0d16feaf65e3018
 }
 
 .navbar a:nth-child(1) {
