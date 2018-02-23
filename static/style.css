@@ -39,21 +39,12 @@ body {
 	height: 100%;
 	border-right: 3px solid rgba(255,255,255,.4);
 	padding-top: 1vw;
-	color: white;
 	vertical-align: middle;
-<<<<<<< HEAD
-=======
-	border-right: 3px solid rgba(255,255,255,.4);
-}
 
-.navbar a {
-	font-family: 'open_sansbold';
-	height: 100%;
-	padding-top: 1vw;
 	color: white;
 	text-transform: uppercase;
-	letter-spacing: .06em;
->>>>>>> a5f0bd9f7299bfac5f221929f0d16feaf65e3018
+	letter-spacing: .04em;
+	font-family: 'open_sansbold';
 }
 
 .navbar a:nth-child(1) {
