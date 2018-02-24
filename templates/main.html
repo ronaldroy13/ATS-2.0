@@ -11,23 +11,24 @@
 
 	<body>
 		<!-- NAVIGATION BAR -->
-		<div class ="navbar">
-			<a href="/"> <div> Home </div> </a>
-			<a href="calculator"> <div> Calculator </div> </a>
-			<a href="data"> <div> Data </div> </a>
-		</div>
+		<nav id="navbar"></nav>
+		<script src="{{url_for('static', filename='navbar.js')}}"></script>
+
 		<div class = grid>
 			<div>
-				Cell 1
+				ATS
 			</div>
 			<div>
-				Cell 2
+				*insert graph*
 			</div>
 			<div>
-				Cell 3
+				<span class = "gridtitle"> The Site </span>
+				<br>This site will take in a user-inputted stock symbol
+				and provide historic data along with an algorith-based prediction of future trends.
 			</div>
 			<div>
-				Cell 4
+				<span class = "gridtitle"> The Group </span>
+				<br>ATS is a Registered Student Organization at UIUC that aims to teach peers about smart investing by combining elements of economics and computer science.
 			</div>
 		</div>
 	</body>
