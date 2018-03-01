@@ -20,10 +20,15 @@
 	display: block;
 }
 
+.grid div {
+	transition: ease 0.9s;
+}
+
 .grid div:hover {
 	filter: brightness(110%);
 	text-decoration: none;
 	transition: ease 0.5s;
+	transform: scale(1.05);
 }
 
 .grid > a:hover {
