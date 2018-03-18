@@ -41,7 +41,7 @@ body {
 .navbar div {
 	height: 100%;
 	border-right: 3px solid rgba(255,255,255,.4);
-	padding-top: 2vh;
+	padding-top: 1.1vh;
 	vertical-align: middle;
 
 	color: white;
