@@ -29,8 +29,7 @@ pd.options.mode.chained_assignment = None
 pd.set_option('display.max_columns', None)
 
 #API Setup
-quandl.ApiConfig.api_key = 'rf1_rwN3HiMDyGBBYcef'
-quandl.ApiConfig.api_version = 'todaysDate'
+
 
 #Data import options
 yearsAgo = 5
